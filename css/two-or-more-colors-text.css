@@ -1,0 +1,59 @@
+.two-colors-abrupt{
+    font-size: 100px;
+    background: linear-gradient(to right, black 50%, darkred 0);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+   font-weight: 900;
+   font-family: Arial;
+ }
+ 
+ 
+ .two-colors-smooth{
+    font-size: 100px;
+    background: linear-gradient(to right, black 40%, darkred 75%);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+   font-weight: 900;
+   font-family: Arial;
+ }
+ 
+ html{
+   /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Great_Wave_off_Kanagawa.jpg); */
+   background-image: url(../images/Great_Wave_off_Kanagawa.jpg);
+   background-size:100%;
+ }
+ 
+ body{
+   margin: 3em;
+ }
+ 
+ h1{text-align:center; color: #CC0000;}
+ 
+ p{font-size: 18px; font-weight: bold;}
+ 
+ 
+ .grid-container {
+   display: grid;
+   grid-template-areas:
+     'header header header header header'
+     'main main main right right'
+     'footer footer footer footer footer';
+   grid-gap: 10px;
+   background-color: 0.5;
+   padding: 10px;
+ }
+ 
+ .grid-container > div {
+   background-color: rgba(255, 255, 255, 0.8);
+   text-align: left;
+   padding: 20px 0;
+   font-size: 30px;
+   padding: 10px;
+ }
+ 
+ .item1 { grid-area: header; }
+ .item3 { grid-area: main; }
+ .item4 { grid-area: right; }
+ .item5 { grid-area: footer; }

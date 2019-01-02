@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2 or + colors in a word</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/two-or-more-colors-text.css" />
+</head>
+<body>
+    <div class="grid-container">
+    <div class="item1">
+      <h1>Is possible two colors in <br/>one text using only CSS?</h1>
+    </div>
+      
+      <!-- left -->
+    <div class="item3">
+      <p>Yes! It is!
+  First, you need do the class and establish the background, changing what you want, just like:
+   <br/><br/>
+  <b>.two-colors-abrupt</b>{
+  <br/>background: linear-gradient(to right, black 50%, darkred_02 0);
+  <br/>-webkit-background-clip: text;
+  <br/>-webkit-text-fill-color: transparent;
+   <br/>}
+   <br/> <br/>If you use 0 at the end, the color will result something abrupt, just like:<br/>
+    <span class="two-colors-abrupt">Dracula</span>
+    <br/>
+      </p>
+      </div>  
+      
+         <!-- right -->
+    <div class="item4">
+      <p>
+        
+  
+  But, if you want something less abrupt, just like this one:<br/>
+    <span class="two-colors-smooth">Dracula</span>
+  <br/>
+   So you need to use %:<br/>
+  <b>.two-colors-smooth</b>{
+  <br/>background: linear-gradient(to right, black 40%, darkred 75%);
+  <br/>-webkit-background-clip: text;
+  <br/>-webkit-text-fill-color: transparent;
+   <br/>}
+    
+  </p>
+      </div>
+    <div class="item5">
+      Thanks for reading!
+      </div>
+  </div>
+   
+  
+  </body>
+</html>
