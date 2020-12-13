@@ -37,6 +37,6 @@ Gosh, I'm updating the README after 2 years coding this. What a shame! hahaha
 
 <div>
   
-[PROJECT SETUP](#Project-setup) &diams; [PREVIEW](#Preview) &diams; [STATUS OF THE PROJECT](#How-is-the-development-of-the-project-right-now) &diams; [BACK TO TOP](#CSS[:]-tricks-[&]-treats)
+[PROJECT SETUP](#Project-setup) &diams; [PREVIEW](#Preview) &diams; [STATUS OF THE PROJECT](#How-is-the-development-of-the-project-right-now) &diams; [BACK TO TOP](#CSS--tricks---treats)
 
 <div>
