@@ -1,4 +1,4 @@
-# CSS tricks and treats
+# CSS: tricks and treats
 
 <b>Made with:</b><br/>
 HTML, CSS
