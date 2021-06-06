@@ -1,0 +1,29 @@
+/* General
+----------------------------------------------------------------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+/* Main
+----------------------------------------------------------------
+*/
+.parent{
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+
+    height: 100%;
+}
+.section{
+    padding: 10px;
+
+    font-family: cursive;
+    color: #fff;
+}
+/* Style
+----------------------------------------------------------------
+*/
+.skyblue{background-color: lightskyblue;}
+.lightpink{background-color: lightpink;}
