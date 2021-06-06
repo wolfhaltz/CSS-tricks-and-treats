@@ -1,0 +1,30 @@
+/* General
+----------------------------------------------------------------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+/* Main
+----------------------------------------------------------------
+*/
+.parent{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    height: 100%;
+}
+.section{
+    padding: 10px;
+    
+    font-family: cursive;
+    color: #fff;
+}
+/* Style
+----------------------------------------------------------------
+*/
+header{background-color: lightsalmon;}
+main{background-color: lightskyblue;}
+footer{background-color: lightseagreen;}
