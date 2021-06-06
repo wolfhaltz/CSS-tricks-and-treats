@@ -1,0 +1,60 @@
+/* General
+----------------------------------------------------------------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+
+    font-family: cursive;
+    font-size: 14px;
+    color: #fff;
+}
+/* Main
+----------------------------------------------------------------
+*/
+.parent{
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+
+    height: 100%;
+}
+header{
+    grid-column: 1/4;
+
+    padding: 10px;
+
+    background-color: mediumorchid;
+}
+.left-side{
+    grid-column: 1/2;
+
+    padding: 10px;
+
+    background-color: mediumaquamarine;
+}
+main{
+    grid-column: 2/3;
+
+    padding: 10px;
+
+    background-color: mediumorchid;
+}
+.right-side{
+    grid-column: 3/4;
+
+    padding: 10px;
+
+    background-color: mediumvioletred;
+}
+footer{
+    grid-column: 1/4;
+
+    padding: 10px;
+
+    background-color: lightskyblue;
+}
+/* Style
+----------------------------------------------------------------
+*/
