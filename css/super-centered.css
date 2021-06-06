@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    display:grid;
+    place-items:center;
+
+    height: 500px;
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+
+    font-family: cursive;
+    font-size: 14px;
+
+    color: #fff;
+}
+
+/* Style
+----------------------------------------------------------------
+*/
+.blue{background-color: lightblue;}
+.coral{background-color: lightcoral;}
