@@ -1,0 +1,43 @@
+/* General
+----------------------------------------------------------------
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+/* Main
+----------------------------------------------------------------
+*/
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    /*
+        the secret here is the flex.
+        if you use:
+
+        flex: 0 1 150px;
+
+        then it will not stretch.
+        BUT, if you use:
+
+        flex: 1 1 150px;
+
+        then it will stretch :)
+    */
+    flex: 0 1 150px;
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 12px;
+
+    font-family: cursive;
+    font-size: 14px;
+}
+/* Style
+----------------------------------------------------------------
+*/
+.white{background-color: white;}
+.pink{background-color: lightpink;}
